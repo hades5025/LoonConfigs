@@ -1,4 +1,4 @@
-hostname＝license.pdfexpert.com
+hostname=license.pdfexpert.com
 
 # > PDF Expert pro
 http-response ^https:\/\/license\.pdfexpert\.com\/api\/1\.0\/pdfexpert6\/subscription\/(refresh$|check$) script-path=https://raw.githubusercontent.com/langkhach270389/Scripting/master/Pdfexpert.vip.js, requires-body=true, timeout=10, tag=PDF expert
