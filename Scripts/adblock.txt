@@ -1,4 +1,4 @@
-hostname=mp.weixin.qq.com, api.zhihu.com, googlevideo.com, api.bilibili.com, app.bilibili.com
+hostname=mp.weixin.qq.com,api.zhihu.com, googlevideo.com,api.bilibili.com,app.bilibili.com
 
 
 # > 微信公众号

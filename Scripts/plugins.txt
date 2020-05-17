@@ -1,4 +1,4 @@
-hostname=trade-acs.m.taobao.com, api.m.jd.com
+hostname=trade-acs.m.taobao.com,api.m.jd.com
 
 # > 京东比价
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,tag=京东比价

@@ -1,4 +1,4 @@
-hostname=www.duokan.com, api.m.jd.com, music.163.com
+hostname=www.duokan.com,api.m.jd.com,music.163.com
 
 # > 京东 cookie
 # 浏览器登录 https://bean.m.jd.com 点击签到并且出现签到日历
