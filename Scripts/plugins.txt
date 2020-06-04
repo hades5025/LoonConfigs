@@ -1,10 +1,4 @@
-hostname=trade-acs.m.taobao.com,api.m.jd.com
+hostname=api.m.jd.com
 
 # > 京东比价
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js,tag=京东比价
-
-# > 淘宝比价
-# 不生效或失效的需要卸载 tb 重装，注意不开脚本进 tb 会失效
-http-request ^http://.+/amdc/mobileDispatch script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js, requires-body=true, timeout=10, tag=淘宝比价PART1(内置版)
-
-http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js, requires-body=true, timeout=10, tag=淘宝比价PART2(内置版)
